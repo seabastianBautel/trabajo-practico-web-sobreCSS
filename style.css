@@ -28,7 +28,7 @@ body{
     margin: 0 15%;
 }
 i{
-    padding: 3px;
+    padding: 0 5px;
 }
 @media (max-width:600px){
     .responsive{
