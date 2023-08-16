@@ -1,0 +1,26 @@
+.grid-container3{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    background-color: grey;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+.grid-container3 > div{
+    width: 25vw;
+    height: 40vw;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 15px;
+}
+.plano{
+    background-color: aqua;
+}
+.gradiente{
+    background: linear-gradient(to right, red, white);
+}
+.conImagen{
+   background-image: url(/assets/img/pared.avif);
+}
+.conImagen >h5{
+    color: white;
+}
