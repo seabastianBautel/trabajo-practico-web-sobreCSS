@@ -24,3 +24,37 @@
 .conImagen >h5{
     color: white;
 }
+.navbar-responsitive{
+    display: none;
+   
+    
+}
+
+
+@media (max-width:600px){
+    .grid-container3 > div{
+        width: 15vw;
+        height: 30vw;
+        border: 2px solid black;
+        padding: 15px;
+        margin: 15px;
+    }
+    /* revisar */
+    .responsitive >.navbar-responsitive  :hover {
+        display: grid;
+        position: fixed;
+        grid-template-rows: auto auto auto auto;
+        float: right;
+        text-align: right;
+        background-color: #555;
+        overflow: auto;
+        
+    }
+    .navbar-responsitive a{
+        float: right;
+        padding: 12px;
+        color:white;
+        text-decoration: none;
+    }
+    
+}

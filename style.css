@@ -33,10 +33,32 @@ i{
 @media (max-width:600px){
     .responsive{
         display: block;
-        float: right;
+        float: left;
         padding: 12px;
     }
    i:not(.responsive){
     display: none;
    }
 }
+footer {
+    background-color:  #555;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+}
+footer >p{
+    
+    padding-top: 30px;
+}
+@media screen and (max-width: 600px) {
+ 
+  .navbar a{
+    display:  none;
+  }
+}
+    
