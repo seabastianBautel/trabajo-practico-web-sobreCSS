@@ -39,3 +39,18 @@
 .Ease-In-Out {
     animation: ejemplo 2s ease-in-out infinite alternate;
 }
+
+@media (max-width:600px) {
+    @keyframes ejemplo {
+        from {
+            background-color: red;
+            left: 0px;
+        }
+    
+        to {
+            background-color: blue;
+            left: 300px;
+        }
+    
+    }
+}

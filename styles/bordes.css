@@ -40,3 +40,19 @@
 .Outset{
    border: 5px outset black; 
 }
+@media (max-width:600px) {
+    .cajita{
+        width: 50px;
+        height:50px;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: 20% 20% auto;
+        
+        gap: 50px;
+        background-color: grey;
+        padding: 15px;
+        justify-content: space-evenly;
+    }
+}
+
